@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #6c6b6b;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   header {
@@ -30,13 +35,25 @@
   .main-visual {
       width: 100%;
       height: 300px;
-      background-color: orange
+      background-image: url(img/mv.jpg);
+      background-size: cover;
+      background-position: center;
   }
   .main-visual-content {
-      width: 350px;
+      width: 40%;
       height: 300px;
-      background-color: gold;
+      background-color: rgba( 0, 0, 0, 0.5);
+      text-align: center;
+      padding-top: 105px;
   }
+  .main-visual-text {
+    color: #fff; /* 文字色を白に変更 */
+  }
+  .main-visual-name {
+    margin-top: 30px; /* 上側の外側の余白 */
+    color: #fff; /* 文字色を白に変更 */
+  }
+
 
   .main {
       width: 840px;
@@ -60,7 +77,17 @@
 
 
 footer {
-    width: 100%; /* 横幅いっぱい */
-    height: 120px; /* 高さ120px */
-  }
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        line-height: 120px;
+        background-color: #848282;
+}
+          
+      .footer-text {
+        color: #fff;
+      }
+
+
+  
 
